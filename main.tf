@@ -40,7 +40,7 @@ variable "subnet_prefix" {
     description = "cidr block for subnet"
     type = string
 }
-\
+
 # 4. Create subnet
 resource "aws_subnet" "phani_subnet" {
   vpc_id = aws_vpc.phani_vpc.id
